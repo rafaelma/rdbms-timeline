@@ -18,8 +18,9 @@
  *
  */
 
-digraph RDBMS_hist {
+digraph RDBMS_timeline {
 K=4;
+label="RDBMS Timeline"
 imap=yes;
 rankdir=TB;
 ratio=fill;
