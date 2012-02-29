@@ -20,10 +20,16 @@
 
 digraph RDBMS_timeline {
 K=4;
-label="RDBMS Timeline"
 imap=yes;
 rankdir=TB;
 ratio=fill;
+
+graph [
+ fontname = "Helvetica"
+ fontsize=30
+ label="RDBMS timeline"
+ labelloc=t
+]
 
 /* 
  * *********************
