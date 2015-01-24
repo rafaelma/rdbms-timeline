@@ -81,7 +81,7 @@ graph [
  {rank=same; "[ 2011 ]" "HP NonStop\nSQL/MX v3" "MySQL 5.6" "PostgreSQL 9.1"}
  {rank=same; "[ 2012 ]" "MariaDB 5.5" "PostgreSQL 9.2" "SQL Server 2012" "MySQL Cluster 7.2" }
  {rank=same; "[ 2013 ]" "SQL Anywhere 16" "PostgreSQL 9.3" "MySQL Cluster 7.3" }
- {rank=same; "[ 2014 ]" "MariaDB 10.0" "PostgreSQL 9.4" "SQL Server 2014" "Oracle 12c"}
+ {rank=same; "[ 2014 ]" "MariaDB 10.0" "PostgreSQL 9.4" "SQL Server 2014" "Oracle 12c" "SAP ASE 16"}
 
 
 /* 
@@ -195,6 +195,8 @@ graph [
 "Sun Microsystems" [style=dotted, shape=box style="filled,rounded", color="grey60"];
 
 "Sybase" [style=dotted, shape=box style="filled,rounded", color="grey60"];
+
+"SAP" [style=dotted, shape=box style="filled,rounded", color="grey60"];
 
 "Tandem\nComputers" [style=dotted, shape=box style="filled,rounded", color="grey60"];
 
@@ -400,6 +402,7 @@ graph [
 "Sybase ASE 12" [style=filled, color=grey90];
 "Sybase ASE 12.5" [style=filled, color=grey90];
 "Sybase ASE 15" [style=filled, color=grey90];
+"SAP ASE 16" [style=filled, color=grey90];
 
 
 "SQL/DS" [style=filled, color=grey90];
@@ -481,6 +484,7 @@ graph [
 "Sun Microsystems" -> "MySQL Cluster 6.1" [style=dotted];
 
 "Sybase" -> "Sybase SQL server" [style=dotted];
+"SAP" -> "SAP ASE 16" [style=dotted];
 "Sybase" -> "Watcom SQL" [style=dotted];
 
 "Tandem\nComputers" -> "NonStop SQL" [style=dotted];
@@ -566,7 +570,7 @@ graph [
 
 "Sybase SQL server" -> "SQL Server 1.0";
 "Sybase SQL server" -> "Sybase SQL server 3";
-"Sybase SQL server 3" -> "Sybase SQL server 11" -> "Sybase ASE 11.5" -> "Sybase ASE 12" -> "Sybase ASE 12.5" -> "Sybase ASE 15";
+"Sybase SQL server 3" -> "Sybase SQL server 11" -> "Sybase ASE 11.5" -> "Sybase ASE 12" -> "Sybase ASE 12.5" -> "Sybase ASE 15" -> "SAP ASE 16";
 
 
 "Watcom SQL" -> "Watcom SQL 4" -> "SQL Anywhere 5" -> "Adaptive \nServer \nAnywhere 6" -> "Adaptive \nServer \nAnywhere 7" -> "Adaptive \nServer \nAnywhere 8" -> "Adaptive \nServer \nAnywhere 9" -> "SQL Anywhere 10" -> "SQL Anywhere 11" -> "SQL Anywhere 12" -> "SQL Anywhere 16";
