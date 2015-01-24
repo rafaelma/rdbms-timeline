@@ -1,15 +1,10 @@
-#
-# RDBMS timeline
-#
-# File: README
-#
-# Author: Rafael Martinez Guerrero / PostgreSQL-es
-# E-mail: rafael@postgresql.org.es
-# Web: http://www.postgresql.org.es/
-#
-# GIT repository: http://www.github.com/rafaelma/rdbms-timeline
-#
+RDBMS timeline
+==============
 
+* Author: Rafael Martinez Guerrero / PostgreSQL-es
+* E-mail: rafael@postgresql.org.es
+* Web: http://www.postgresql.org.es/
+* GIT repository: http://www.github.com/rafaelma/rdbms-timeline
   
 The intention of this project is to create a timeline diagram with
 information about the main RDBMS since the 70' up until now.
