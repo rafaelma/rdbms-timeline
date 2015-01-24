@@ -77,11 +77,11 @@ graph [
  {rank=same; "[ 2007 ]" "FileMaker\nPro 9" "H-Store \n project" "Informix v11" "Oracle 11g" "MySQL Cluster 6.2" }
  {rank=same; "[ 2008 ]" "Interbase 2009" "MySQL 5.1" "PostgreSQL 8.3" "MaxDB 7.7" "SQL Anywhere 11" "SQL Server 2008" "Sun Microsystems" "MySQL Cluster 6.3" }
  {rank=same; "[ 2009 ]" "FileMaker\nPro 10" "Ingres 9.3" "PostgreSQL 8.4" "MySQL Cluster 7.0" }
- {rank=same; "[ 2010 ]" "FileMaker\nPro 11" "FileMaker\nGo 1" "HSQLDB v2" "Interbase XE" "SQL Anywhere 12" "DB2 v10" "Ingres 10" "MariaDB 5.1" "MariaDB 5.2" "MySQL 5.5" "Oracle 11gR2" "PostgreSQL 9.0" "SQL Server 2008 R2" "VoltDB" "MySQL Cluster 7.1"}
+ {rank=same; "[ 2010 ]" "FileMaker\nPro 11" "FileMaker\nGo 1" "HSQLDB v2" "Interbase XE" "SQL Anywhere 12" "DB2 v10" "Ingres 10" "MariaDB 5.1" "MariaDB 5.2" "MySQL 5.5" "Oracle 11gR2" "PostgreSQL 9.0" "SQL Server 2008 R2" "VoltDB" "MySQL Cluster 7.1" }
  {rank=same; "[ 2011 ]" "HP NonStop\nSQL/MX v3" "MySQL 5.6" "PostgreSQL 9.1"}
  {rank=same; "[ 2012 ]" "MariaDB 5.5" "PostgreSQL 9.2" "SQL Server 2012" "MySQL Cluster 7.2" }
  {rank=same; "[ 2013 ]" "SQL Anywhere 16" "PostgreSQL 9.3" "MySQL Cluster 7.3" }
- {rank=same; "[ 2014 ]" "MariaDB 10.0" "PostgreSQL 9.4" "SQL Server 2014" "Oracle 12c" "SAP ASE 16"}
+ {rank=same; "[ 2014 ]" "MariaDB 10.0" "PostgreSQL 9.4" "SQL Server 2014" "Oracle 12c" "SAP ASE 16" "Informix v12" "MaxDB 7.9" }
 
 
 /* 
@@ -213,6 +213,7 @@ graph [
 "MaxDB 7.6" [style=filled, color=grey90];
 "MaxDB 7.7" [style=filled, color=grey90];
 "MaxDB 7.8" [style=filled, color=grey90];
+"MaxDB 7.9" [style=filled, color=grey90];
 
 
 /* DB2 */
@@ -293,6 +294,7 @@ graph [
 "Informix v9 (IUS)" [style=filled, color=grey90];
 "Informix v10" [style=filled, color=grey90];
 "Informix v11" [style=filled, color=grey90];
+"Informix v12" [style=filled, color=grey90];
 
 /* MySQL */
 
@@ -498,7 +500,7 @@ graph [
 
 
 
-"Adabas D" -> "SAP DB" -> "MaxDB 7.5" -> "MaxDB 7.6" -> "MaxDB 7.7" -> "MaxDB 7.8";
+"Adabas D" -> "SAP DB" -> "MaxDB 7.5" -> "MaxDB 7.6" -> "MaxDB 7.7" -> "MaxDB 7.8" -> "MaxDB 7.9";
 
 "DB2" -> "DB2 UDB 5" -> "DB2 v9" -> "DB2 v10";
 
@@ -512,7 +514,7 @@ graph [
 
 "Informix" -> "Informix 3.30";
 "Informix-SQL" -> "Informix-SQL v2" -> "Informix v3" -> "Informix v4" -> "Informix v5" -> "Informix v6" -> "Informix v7" -> "Informix v8 (XPS)" ;
-"Informix v7" -> "Informix v9 (IUS)" -> "Informix v10" -> "Informix v11";
+"Informix v7" -> "Informix v9 (IUS)" -> "Informix v10" -> "Informix v11" -> "Informix v12";
 
 "Ingres" -> "Ingres 9.3" -> "Ingres 10";
 
