@@ -84,7 +84,7 @@ graph [
  {rank=same; "[ 2014 ]" "MariaDB 10.0" "PostgreSQL 9.4" "SQL Server 2014" "Oracle 12c" "SAP ASE 16" "Informix v12" "MaxDB 7.9" }
  {rank=same; "[ 2015 ]" "MariaDB 10.1" "MySQL 5.7" "PostgreSQL 9.5" }
  {rank=same; "[ 2016 ]" "PostgreSQL 9.6" "Firebird 3.0"}
- {rank=same; "[ 2017 ]" "PostgreSQL 10" }
+ {rank=same; "[ 2017 ]" "MariaDB 10.2" "PostgreSQL 10" }
 
 
 /* 
@@ -273,6 +273,7 @@ graph [
 "MariaDB 5.5" [style=filled, color=coral3];
 "MariaDB 10.0" [style=filled, color=coral3];
 "MariaDB 10.1" [style=filled, color=coral3];
+"MariaDB 10.2" [style=filled, color=coral3];
 
 
 
@@ -539,7 +540,7 @@ graph [
 "Interbase" -> "Interbase v6" -> "Interbase v7" -> "Interbase 2007" -> "Interbase 2009" -> "Interbase XE";
 "Interbase v6" -> "Firebird 1.0" -> "Firebird 1.5" -> "Firebird 2.0" -> "Firebird 2.5" -> "Firebird 3.0";
 
-"MariaDB 5.1" -> "MariaDB 5.2" -> "MariaDB 5.5" -> "MariaDB 10.0" -> "MariaDB 10.1";
+"MariaDB 5.1" -> "MariaDB 5.2" -> "MariaDB 5.5" -> "MariaDB 10.0" -> "MariaDB 10.1" -> "MariaDB 10.2";
 
 "MySQL windows" -> "MySQL 3.23" -> "MySQL 4.0" -> "MySQL 4.1" -> "MySQL 5.0" -> "MySQL 5.1" -> "MySQL 5.5" -> "MySQL 5.6" -> "MySQL 5.7";
 "MySQL 5.1" -> "MariaDB 5.1";
