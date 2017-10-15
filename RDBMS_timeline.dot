@@ -82,7 +82,7 @@ graph [
  {rank=same; "[ 2012 ]" "MariaDB 5.5" "PostgreSQL 9.2" "SQL Server 2012" "MySQL Cluster 7.2" }
  {rank=same; "[ 2013 ]" "SQL Anywhere 16" "PostgreSQL 9.3" "MySQL Cluster 7.3" }
  {rank=same; "[ 2014 ]" "MariaDB 10.0" "PostgreSQL 9.4" "SQL Server 2014" "Oracle 12c" "SAP ASE 16" "Informix v12" "MaxDB 7.9" }
- {rank=same; "[ 2015 ]" "PostgreSQL 9.5" }
+ {rank=same; "[ 2015 ]" "MySQL 5.7" "PostgreSQL 9.5" }
  {rank=same; "[ 2016 ]" "PostgreSQL 9.6" "Firebird 3.0"}
  {rank=same; "[ 2017 ]" "PostgreSQL 10" }
 
@@ -318,6 +318,7 @@ graph [
 "MySQL 5.1" [style=filled, color=darksalmon];
 "MySQL 5.5" [style=filled, color=darksalmon];
 "MySQL 5.6" [style=filled, color=darksalmon];
+"MySQL 5.7" [style=filled, color=darksalmon];
 
 "MySQL Cluster 6.1" [style=filled, color=coral];
 "MySQL Cluster 6.2" [style=filled, color=coral];
@@ -539,7 +540,7 @@ graph [
 
 "MariaDB 5.1" -> "MariaDB 5.2" -> "MariaDB 5.5" -> "MariaDB 10.0";
 
-"MySQL windows" -> "MySQL 3.23" -> "MySQL 4.0" -> "MySQL 4.1" -> "MySQL 5.0" -> "MySQL 5.1" -> "MySQL 5.5" -> "MySQL 5.6";
+"MySQL windows" -> "MySQL 3.23" -> "MySQL 4.0" -> "MySQL 4.1" -> "MySQL 5.0" -> "MySQL 5.1" -> "MySQL 5.5" -> "MySQL 5.6" -> "MySQL 5.7";
 "MySQL 5.1" -> "MariaDB 5.1";
 
 "MySQL Cluster 6.1" -> "MySQL Cluster 6.2";
